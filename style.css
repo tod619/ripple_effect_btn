@@ -18,3 +18,24 @@ html {
     align-items: center;
     justify-content: center;
 }
+
+.btn {
+    position: absolute;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    background-color: #9b0b0e;
+    border: 0.2rem dotted #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn span {
+    position: relative;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
