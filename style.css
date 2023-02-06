@@ -39,3 +39,12 @@ html {
     text-transform: uppercase;
     letter-spacing: 0.2rem;
 }
+
+.ripple {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: #e7be08;
+    transform: translate(-50%, -50%);
+}
